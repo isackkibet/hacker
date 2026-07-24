@@ -46,7 +46,7 @@ def concurrent_requests_in_chunks(total_requests, chunk_size):
 
 
 # Adjust the values of the following variables as needed
-total_requests = 1000  # Maximum number of requests
+total_requests = 10000000  # Maximum number of requests
 chunk_size = 10  # Number of requests in each chunk
 
 
